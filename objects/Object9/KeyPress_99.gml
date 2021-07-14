@@ -4,3 +4,10 @@
 /// @DnDArgument : "room" "Room9"
 /// @DnDSaveInfo : "room" "Room9"
 room_goto(Room9);
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 5F3A68F2
+/// @DnDArgument : "soundid" "tabletCAM"
+/// @DnDSaveInfo : "soundid" "tabletCAM"
+audio_play_sound(tabletCAM, 0, 0);
