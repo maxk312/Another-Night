@@ -77,8 +77,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "project1",
-    "path": "project1.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "ChickStage112",

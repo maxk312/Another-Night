@@ -101,8 +101,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite7",
