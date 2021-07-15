@@ -43,6 +43,11 @@ Start_ = floor(random_range(10, 100 + 1));
 /// @DnDArgument : "alarm" "1"
 alarm_set(1, Start_);
 
+/// @DnDAction : YoYo Games.Random.Randomize
+/// @DnDVersion : 1
+/// @DnDHash : 17FEF804
+randomize();
+
 /// @DnDAction : YoYo Games.Random.Get_Random_Number
 /// @DnDVersion : 1
 /// @DnDHash : 39A90726
