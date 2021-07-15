@@ -19,3 +19,41 @@ audio_play_sound(Factory_Background, 0, 1);
 /// @DnDArgument : "loop" "1"
 /// @DnDSaveInfo : "soundid" "fan"
 audio_play_sound(fan, 0, 1);
+
+/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+/// @DnDVersion : 1
+/// @DnDHash : 67286C67
+/// @DnDArgument : "room" "Room1"
+/// @DnDSaveInfo : "room" "Room1"
+room_goto(Room1);
+
+/// @DnDAction : YoYo Games.Random.Get_Random_Number
+/// @DnDVersion : 1
+/// @DnDHash : 6F772DD1
+/// @DnDArgument : "var" "Start_"
+/// @DnDArgument : "type" "1"
+/// @DnDArgument : "min" "10"
+/// @DnDArgument : "max" "100"
+Start_ = floor(random_range(10, 100 + 1));
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 340BD9D8
+/// @DnDArgument : "steps" "Start_"
+/// @DnDArgument : "alarm" "1"
+alarm_set(1, Start_);
+
+/// @DnDAction : YoYo Games.Random.Get_Random_Number
+/// @DnDVersion : 1
+/// @DnDHash : 39A90726
+/// @DnDArgument : "var" "go"
+/// @DnDArgument : "type" "1"
+/// @DnDArgument : "max" "3"
+go = floor(random_range(0, 3 + 1));
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6ABCEC01
+/// @DnDArgument : "expr" "go"
+/// @DnDArgument : "var" "st2"
+st2 = go;
