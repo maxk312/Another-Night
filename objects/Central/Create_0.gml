@@ -27,6 +27,11 @@ audio_play_sound(fan, 0, 1);
 /// @DnDSaveInfo : "room" "Room1"
 room_goto(Room1);
 
+/// @DnDAction : YoYo Games.Random.Randomize
+/// @DnDVersion : 1
+/// @DnDHash : 43FBE383
+randomize();
+
 /// @DnDAction : YoYo Games.Random.Get_Random_Number
 /// @DnDVersion : 1
 /// @DnDHash : 6F772DD1
@@ -59,6 +64,6 @@ go = floor(random_range(0, 3 + 1));
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 6ABCEC01
-/// @DnDArgument : "expr" "go"
+/// @DnDArgument : "expr" "2"
 /// @DnDArgument : "var" "st2"
-st2 = go;
+st2 = 2;
