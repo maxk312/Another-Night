@@ -13,14 +13,12 @@ if(st2 == 2)
 	/// @DnDSaveInfo : "soundid" "she_will_catch_you"
 	audio_play_sound(she_will_catch_you, 0, 0);
 
-	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
-	/// @DnDHash : 529D2997
+	/// @DnDHash : 7CB959B4
 	/// @DnDParent : 0747B5C9
-	/// @DnDArgument : "objectid" "Object16"
-	/// @DnDArgument : "layer" ""instances""
-	/// @DnDSaveInfo : "objectid" "Object16"
-	instance_create_layer(0, 0, "instances", Object16);
+	/// @DnDArgument : "alarm" "4"
+	alarm_set(4, 30);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

@@ -7,6 +7,7 @@
     {"id":{"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},"order":13,},
     {"id":{"name":"Extension1","path":"extensions/Extension1/Extension1.yy",},"order":5,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
+    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":27,},
     {"id":{"name":"Object11","path":"objects/Object11/Object11.yy",},"order":13,},
     {"id":{"name":"fan","path":"sounds/fan/fan.yy",},"order":23,},
     {"id":{"name":"she_will_catch_you","path":"sounds/she_will_catch_you/she_will_catch_you.yy",},"order":21,},
