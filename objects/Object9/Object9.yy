@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite8",
-    "path": "sprites/Sprite8/Sprite8.yy",
+    "name": "spr_empty_cam2",
+    "path": "sprites/spr_empty_cam2/spr_empty_cam2.yy",
   },
   "solid": false,
   "visible": true,

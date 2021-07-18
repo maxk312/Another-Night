@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite18",
-    "path": "sprites/Sprite18/Sprite18.yy",
+    "name": "spr_chica_look_cam1_",
+    "path": "sprites/spr_chica_look_cam1_/spr_chica_look_cam1_.yy",
   },
   "solid": true,
   "visible": true,

@@ -13,8 +13,8 @@
   "soundFile": "fan.mp3",
   "duration": 17.0579586,
   "parent": {
-    "name": "project1",
-    "path": "project1.yyp",
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "fan",

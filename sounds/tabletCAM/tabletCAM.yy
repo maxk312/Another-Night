@@ -13,8 +13,8 @@
   "soundFile": "tabletCAM.mp3",
   "duration": 0.287347,
   "parent": {
-    "name": "project1",
-    "path": "project1.yyp",
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "tabletCAM",

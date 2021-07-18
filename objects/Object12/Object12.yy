@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite17",
-    "path": "sprites/Sprite17/Sprite17.yy",
+    "name": "spr_empty_left_shaft_light",
+    "path": "sprites/spr_empty_left_shaft_light/spr_empty_left_shaft_light.yy",
   },
   "solid": false,
   "visible": true,

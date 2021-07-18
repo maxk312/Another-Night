@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite6",
-    "path": "sprites/Sprite6/Sprite6.yy",
+    "name": "spr_empty_left_shaft",
+    "path": "sprites/spr_empty_left_shaft/spr_empty_left_shaft.yy",
   },
   "solid": false,
   "visible": true,

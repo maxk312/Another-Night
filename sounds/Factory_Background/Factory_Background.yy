@@ -13,8 +13,8 @@
   "soundFile": "Factory_Background.mp3",
   "duration": 38.9746933,
   "parent": {
-    "name": "project1",
-    "path": "project1.yyp",
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "Factory_Background",

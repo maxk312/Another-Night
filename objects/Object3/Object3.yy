@@ -1,13 +1,13 @@
 {
   "spriteId": {
-    "name": "Sprite1",
-    "path": "sprites/Sprite1/Sprite1.yy",
+    "name": "spr_empty_hall",
+    "path": "sprites/spr_empty_hall/spr_empty_hall.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": {
-    "name": "Sprite1",
-    "path": "sprites/Sprite1/Sprite1.yy",
+    "name": "spr_empty_hall",
+    "path": "sprites/spr_empty_hall/spr_empty_hall.yy",
   },
   "persistent": false,
   "parentObjectId": null,

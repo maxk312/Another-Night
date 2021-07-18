@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite15",
-    "path": "sprites/Sprite15/Sprite15.yy",
+    "name": "spr_empty_cam4",
+    "path": "sprites/spr_empty_cam4/spr_empty_cam4.yy",
   },
   "solid": false,
   "visible": true,

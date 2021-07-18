@@ -13,8 +13,8 @@
   "soundFile": "she_will_catch_you.mp3",
   "duration": 1.567347,
   "parent": {
-    "name": "project1",
-    "path": "project1.yyp",
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "she_will_catch_you",
