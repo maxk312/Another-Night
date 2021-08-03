@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_chica_look_cam1_",
-    "path": "sprites/spr_chica_look_cam1_/spr_chica_look_cam1_.yy",
+    "name": "spr_chica_look_cam1",
+    "path": "sprites/spr_chica_look_cam1/spr_chica_look_cam1.yy",
   },
   "solid": true,
   "visible": true,

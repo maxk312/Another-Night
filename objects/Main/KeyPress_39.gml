@@ -1,6 +1,7 @@
-/// @DnDAction : YoYo Games.Rooms.Go_To_Room
-/// @DnDVersion : 1
-/// @DnDHash : 0BC029FA
-/// @DnDArgument : "room" "Room3"
-/// @DnDSaveInfo : "room" "Room3"
-room_goto(Room3);
+if(global.tablet_state == enum_tablet.off){
+	
+	global.view_scene = enum_view_scene.right_door;
+	global.view_scene_state = enum_right_door_state.right_door_is_open;
+	Update_screen();
+
+}

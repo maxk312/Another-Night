@@ -1,13 +1,34 @@
-/// @DnDAction : YoYo Games.Rooms.Go_To_Room
-/// @DnDVersion : 1
-/// @DnDHash : 0FB89E1F
-/// @DnDArgument : "room" "Room6"
-/// @DnDSaveInfo : "room" "Room6"
-room_goto(Room6);
+if(global.tablet_state == enum_tablet.off){
 
-/// @DnDAction : YoYo Games.Audio.Play_Audio
-/// @DnDVersion : 1
-/// @DnDHash : 6472D21E
-/// @DnDArgument : "soundid" "tabletCAM"
-/// @DnDSaveInfo : "soundid" "tabletCAM"
-audio_play_sound(tabletCAM, 0, 0);
+	global.tablet_state = enum_tablet.on;
+	
+	global.view_scene = enum_view_scene.cam1;
+	
+	if(global.chica_state == enum_chica_state.chica_is_on_cam1){
+		
+		global.view_scene_state = enum_cam1_states.chica;
+		
+	}
+	else if(global.chica_state == enum_chica_state.chica_is_looking_to_cam1){
+	
+		global.view_scene_state = enum_cam1_states.chica_looking_on_cam;
+	
+	}
+	else{
+		
+		global.view_scene_state = enum_cam1_states.empty;
+		
+	}
+	
+	
+
+}
+else{
+	
+	global.tablet_state = enum_tablet.off;
+	global.view_scene = enum_view_scene.hall;
+	global.view_scene_state = enum_hall_state.empty_light_off;
+
+}
+
+Update_screen();
