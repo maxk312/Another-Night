@@ -3,7 +3,7 @@
     {"id":{"name":"Factory_Background","path":"sounds/Factory_Background/Factory_Background.yy",},"order":2,},
     {"id":{"name":"spr_chica_cam1","path":"sprites/spr_chica_cam1/spr_chica_cam1.yy",},"order":0,},
     {"id":{"name":"spr_empty_cam4","path":"sprites/spr_empty_cam4/spr_empty_cam4.yy",},"order":2,},
-    {"id":{"name":"Menu","path":"objects/Menu/Menu.yy",},"order":21,},
+    {"id":{"name":"obj_Menu","path":"objects/obj_Menu/obj_Menu.yy",},"order":21,},
     {"id":{"name":"spr_chica_jump_scare","path":"sprites/spr_chica_jump_scare/spr_chica_jump_scare.yy",},"order":2,},
     {"id":{"name":"spr_chica_look_cam1","path":"sprites/spr_chica_look_cam1/spr_chica_look_cam1.yy",},"order":1,},
     {"id":{"name":"spr_chica_cam2","path":"sprites/spr_chica_cam2/spr_chica_cam2.yy",},"order":5,},
@@ -19,11 +19,13 @@
     {"id":{"name":"spr_right_door_close","path":"sprites/spr_right_door_close/spr_right_door_close.yy",},"order":0,},
     {"id":{"name":"door","path":"sounds/door/door.yy",},"order":6,},
     {"id":{"name":"tabletCAM","path":"sounds/tabletCAM/tabletCAM.yy",},"order":1,},
+    {"id":{"name":"obj_end","path":"objects/obj_end/obj_end.yy",},"order":22,},
     {"id":{"name":"_2016_10_09___Destruction___David_Fesliyan","path":"sounds/_2016_10_09___Destruction___David_Fesliyan/_2016_10_09___Destruction___David_Fesliyan.yy",},"order":5,},
     {"id":{"name":"spr_empty_cam3","path":"sprites/spr_empty_cam3/spr_empty_cam3.yy",},"order":1,},
     {"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},"order":5,},
     {"id":{"name":"spr_bunny_cam2","path":"sprites/spr_bunny_cam2/spr_bunny_cam2.yy",},"order":0,},
     {"id":{"name":"spr_empty_left_shaft_light","path":"sprites/spr_empty_left_shaft_light/spr_empty_left_shaft_light.yy",},"order":6,},
+    {"id":{"name":"WinningRoom","path":"rooms/WinningRoom/WinningRoom.yy",},"order":11,},
     {"id":{"name":"spr_empty_hall_light","path":"sprites/spr_empty_hall_light/spr_empty_hall_light.yy",},"order":4,},
     {"id":{"name":"spr_bunny_hall","path":"sprites/spr_bunny_hall/spr_bunny_hall.yy",},"order":1,},
     {"id":{"name":"spr_bunny_jumpscare","path":"sprites/spr_bunny_jumpscare/spr_bunny_jumpscare.yy",},"order":2,},
@@ -32,6 +34,7 @@
     {"id":{"name":"spr_chica_left_shaft","path":"sprites/spr_chica_left_shaft/spr_chica_left_shaft.yy",},"order":6,},
     {"id":{"name":"spr_empty_cam2","path":"sprites/spr_empty_cam2/spr_empty_cam2.yy",},"order":0,},
     {"id":{"name":"spr_chica_cam3","path":"sprites/spr_chica_cam3/spr_chica_cam3.yy",},"order":3,},
+    {"id":{"name":"spr_win","path":"sprites/spr_win/spr_win.yy",},"order":6,},
     {"id":{"name":"spr_empty_left_shaft","path":"sprites/spr_empty_left_shaft/spr_empty_left_shaft.yy",},"order":5,},
   ],
   "Options": [
@@ -48,6 +51,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"MenuScreen","path":"rooms/MenuScreen/MenuScreen.yy",},},
     {"roomId":{"name":"FirstNight","path":"rooms/FirstNight/FirstNight.yy",},},
+    {"roomId":{"name":"WinningRoom","path":"rooms/WinningRoom/WinningRoom.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

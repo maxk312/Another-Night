@@ -5,10 +5,10 @@ global.view_scene_state = 0;
 global.tablet_state = 0;
 
 global.bunny_state = 0; //0 = he is in out , 1 = he is in cam2 , 2 = he is in hall
-global.chica_state = 0; //0 = cam1 , 1 = cam1 look , 2 = cam2 , 3 = cam3 , 4 = cam4 , 5 = left shaft
+global.chica_state = 5; //0 = cam1 , 1 = cam1 look , 2 = cam2 , 3 = cam3 , 4 = cam4 , 5 = left shaft
  
 enum enum_game_vars{
-game_speed = room_speed
+game_speed = 60
 }
 
 //enemys_states
@@ -202,11 +202,20 @@ function Update_screen()
 			}	
 	}
 }
+function SetEndingTimeOfShift(){
+	timer = 300 * enum_game_vars.game_speed;
+	alarm_set(11, timer);
+}
+SetEndingTimeOfShift();
 
-function SetTimeOfNextEnemyActivity(){
-	min = 10;
-	max = 30;
-	r = (random_range(min, max));
+function SetTimeOfNextEnemyMove(){
+	Timer_min = 10;
+	Timer_max = 31;
+	randomize();
+	r = floor(random_range(Timer_min, Timer_max));
 	timer = r * enum_game_vars.game_speed;
 	alarm_set(0, timer);
 }
+
+SetTimeOfNextEnemyMove();
+
